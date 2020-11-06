@@ -1,5 +1,5 @@
 <h3><?= $title ?></h3>
-<form class="/login/check">
+<form action="/login/check">
     <div class="col-12">
     <?= \Config\Services::validation()->listErrors(); ?>
     </div>
@@ -9,7 +9,7 @@
     </div>
     <div class="form-group">
         <label>Password</label>
-        <input class="form-control" name="password" placeholder="Password" maxlength="30">
+        <input class="form-control" name="password" type="password" placeholder="Password" maxlength="30">
     </div>
     <button class="btn btn-primary">Login</button>
     <?= anchor('login/register','Register') ?>
