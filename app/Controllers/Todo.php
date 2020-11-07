@@ -59,8 +59,4 @@ class Todo extends BaseController
         return redirect('todo');
     }
 
-    public function logout() {
-        
-        return redirect('login');
-    }
 }

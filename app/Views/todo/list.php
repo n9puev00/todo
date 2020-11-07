@@ -16,4 +16,3 @@
 </tr>
 <?php endforeach;?>
 </table>
-<?= anchor('todo/logout','Log out') ?>
